@@ -11,7 +11,7 @@ def solution(wallet, bill):
     return answer
 
 #--------------------------------
-다른사람풀이
+#다른사람풀이
 #---------------------------------
 def solution(wallet, bill):
 
