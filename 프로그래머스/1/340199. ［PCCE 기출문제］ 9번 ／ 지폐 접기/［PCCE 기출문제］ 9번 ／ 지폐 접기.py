@@ -1,4 +1,18 @@
+def solution(wallet, bill):
+    answer = 0
+    while min(bill) > min(wallet) or max(bill) > max(wallet):
+        bill.sort()
+        bill[1] = bill[1] //2
+        answer+=1
+        
+    bill.sort()
+    print(bill)
+    
+    return answer
 
+#--------------------------------
+다른사람풀이
+#---------------------------------
 def solution(wallet, bill):
 
     wallet, bill = sorted(wallet), sorted(bill)
